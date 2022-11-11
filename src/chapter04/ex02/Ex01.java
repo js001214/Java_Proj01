@@ -56,7 +56,7 @@ public class Ex01 {
 			break;
 		}
 		
-		sc.close(); 		// 스캐너 다쓰면 sc.close()로 닫아줘야한다. 야옹...
+		sc.close(); 		// 스캐너 다쓰면 sc.close()로 닫아줘야한다. 야옹...냥냥
 	}
 
 	
