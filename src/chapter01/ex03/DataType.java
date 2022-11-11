@@ -18,8 +18,9 @@ public class DataType {
 		b = 10;
 		System.out.println(b);
 
-		
-		
+		double c ; 	// 실수를 저장하는 double
+		c = 10.5 ;
+		System.out.println(c);
 	}
 
 }
