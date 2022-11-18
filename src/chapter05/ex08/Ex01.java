@@ -4,7 +4,7 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		// <문제>
-		// args	 :  합계 40 70 99 100 200
+		// args	 :  합계 40 77 99 100 200
 		
 		
 		// 합계 : <정수를 더한 값을 출력>

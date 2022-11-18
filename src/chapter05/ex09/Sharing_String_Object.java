@@ -14,8 +14,8 @@ public class Sharing_String_Object {
 		String str4 = "안녕";//
 		String str5 = new String("안녕"); //new를 통해 만들면 Heap 영역에 새로운 "안녕"이 생긴다.
 		//2. Stack메모리의 주소값 비교 ( == : Stack의 값을 비교)
-		//			eqauls() : Heap의 값을 비교 참조객체.equals (비교객체);
-				System.out.println(str1 == str2 ); //false //주소값이 다르다.
+		//			equals() : Heap의 값을 비교 참조객체.equals (비교객체);
+				System.out.println(str1==str2); //false //주소값이 다르다.
 				System.out.println(str2==str3);	//true
 				System.out.println(str4==str3); //true
 				System.out.println(str2==str4);	//true
