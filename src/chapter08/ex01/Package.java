@@ -2,8 +2,8 @@ package chapter08.ex01;
 
 //다른 패키지에 존재하는 클래스는 import
 import chapter08.ex02.Student;
-import chapter07.* ;			//주의 : 하위 패키지는 적용이 안된다. ex0X에 있는 것들은 안된다.
-import chapter07.ex01.*;
+			//주의 : 하위 패키지는 적용이 안된다. ex0X에 있는 것들은 안된다.
+
 
 public class Package {
 
