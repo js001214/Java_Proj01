@@ -6,7 +6,7 @@ class A{	//부모 클래스 (super class)
 	}
 }
 class B extends A{	//자식 클래스 (child class)
-	@Override //@ :어노테이션, @Override :부모의 메소드를 재정의시 오류를 방지하는 어노테이션
+	@Override//@ :어노테이션, @Override :부모의 메소드를 재정의시 오류를 방지하는 어노테이션
 	void print() {
 		System.out.println("B클래스의 print()");
 	}
