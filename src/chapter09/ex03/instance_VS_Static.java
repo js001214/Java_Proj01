@@ -12,7 +12,7 @@ class A {
 }
 
 class B {
-	static int a = 3;	//static(정적) 필드 : 객체 생성없이 클래스 이름으로 호출가능, 객체 생성후도 사용 가능//static은 Heap역역이 아니라 클래스에 저장된다.
+	static int a = 3;	//static(정적) 필드 : 객체 생성없이 클래스 이름으로 호출가능, 객체 생성후도 사용 가능//static은 Heap영역이 아니라 클래스에 저장된다.
 	static int b = 4;	
 	
 	static void print()	//static(정적) 메소드 : 
