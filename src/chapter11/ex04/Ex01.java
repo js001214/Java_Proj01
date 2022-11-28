@@ -2,7 +2,7 @@ package chapter11.ex04;
 
 abstract class Car {	//트럭, 자가용, 굴삭기 <==추상 메소드를 구현한 클래스 생성
 	abstract void run();
-	abstract void eat();
+	abstract void eat();	//자식 클래스에서 반드시 써야한다.
 }
 
 
